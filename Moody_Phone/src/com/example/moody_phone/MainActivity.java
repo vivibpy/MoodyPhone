@@ -1,8 +1,10 @@
 package com.example.moody_phone;
 
-import android.os.Bundle;
+
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
 
 public class MainActivity extends Activity {
 
@@ -19,4 +21,14 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
+	
+	public void onClickTemas(View View){
+		
+	}
+	public void onClickPersonalizados(View View){
+		
+	}
+	public void onClickConfig(View View){
+	
+}
 }

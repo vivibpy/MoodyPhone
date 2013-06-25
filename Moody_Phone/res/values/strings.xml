@@ -7,5 +7,6 @@
     <string name="button_text_temas">Temas</string>
     <string name="button_text_personalizados">Temas Pesonalizados</string>
     <string name="button_text_config">Configurações</string>
+    <string name="title_activity_temas">Temas</string>
 
 </resources>
