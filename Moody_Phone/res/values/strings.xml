@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Moody_Phone</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_text_temas">Temas</string>
+    <string name="button_text_personalizados">Temas Pesonalizados</string>
+    <string name="button_text_config">Configurações</string>
+
+</resources>

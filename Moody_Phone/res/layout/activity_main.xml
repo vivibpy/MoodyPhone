@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+
+ <ImageView
+        android:id="Mp_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translationY="-170dp"
+        android:src="@drawable/moodyphone_logo"/>
+    
+    <Button
+        android:id="Button_Temas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_temas"
+        android:onClick="OnClickTemas"
+        />
+    <Button
+        android:id="Button_Personalizados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_personalizados"
+        android:onClick="OnClickPersonalizados"
+        />
+    <Button
+        android:id="Button_config"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_config"
+        android:onClick="OnClickConfig"
+        />
+
+</LinearLayout>
